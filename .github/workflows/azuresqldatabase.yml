@@ -9,6 +9,7 @@ on:
     branches:
       - main
 
+      #what the hell
 jobs:
   deploy_database_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
